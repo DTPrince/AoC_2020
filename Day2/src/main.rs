@@ -44,10 +44,6 @@ fn read_file() -> Result<Vec<String>, Error> {
 fn main() {
     let lineitem = read_file().unwrap();
 
-    // Here the goal is to split the string into requirements password
-    // Then trim out white space
-    // Then pull out range and letter of interest
-    // then look for number of occurrences in the pw string
     let mut valid_password_count = 0;
     for line in lineitem {
         // println!("line: {}", line);
