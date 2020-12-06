@@ -22,7 +22,7 @@ impl ForrestMap {
         let height = self.field.len();
         let mod_width = self.field[0].len();
         let tree_token = "#".as_bytes()[0];
-        while self.y < height-1 {
+        while self.y < height - 1 {
             self.x += x_inc;
             // adjust for overflow
             if self.x >= mod_width {
@@ -36,7 +36,6 @@ impl ForrestMap {
         }
         self.no_trees
     }
-
 }
 
 fn read_input() -> Result<Vec<String>, Error> {
@@ -51,11 +50,11 @@ fn read_input() -> Result<Vec<String>, Error> {
     Ok(lines)
 }
 
-fn main() -> Result<(), Error>{
+fn main() -> Result<(), Error> {
     let forrest = read_input()?;
     // println!("len: {}, line width: {}", forrest.len(), forrest[0].len());
 
-    let mut fmap = ForrestMap {x: 0, y: 0, no_trees: 0, field: forrest};
+    let mut fmap = ForrestMap { x: 0, y: 0, no_trees: 0, field: forrest };
     let traverse_1_1 = fmap.traverse(1, 1);
     println!("No. trees hit R1D1: {}", traverse_1_1);
     let traverse_3_1 = fmap.traverse(3, 1);
