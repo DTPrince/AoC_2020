@@ -9,7 +9,9 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c815060-919b-4d6d-991c-a4518a23e965" name="Default Changelist" comment="" />
+    <list default="true" id="b7cab920-72b9-419b-ac22-01b22c650959" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Day5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Day5/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,9 +24,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MacroExpansionManager">
-    <option name="directoryName" value="pwhvwz1r" />
+    <option name="directoryName" value="6d2qtb6y" />
   </component>
-  <component name="ProjectId" id="1lJOzbPJ7VMBmVYUPGOeUNS5gLZ" />
+  <component name="ProjectId" id="1lJmivSgBGqWXHDpQqLb0cuTrRJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
@@ -37,12 +39,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Rust" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
       <option name="channel" value="DEFAULT" />
-      <option name="command" value="run --package Day5 --bin Day5" />
+      <option name="command" value="run --package Day6 --bin Day6" />
       <option name="allFeatures" value="false" />
       <option name="emulateTerminal" value="false" />
       <option name="backtrace" value="SHORT" />
@@ -52,35 +60,21 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
-      <option name="channel" value="DEFAULT" />
-      <option name="command" value="run" />
-      <option name="allFeatures" value="false" />
-      <option name="emulateTerminal" value="false" />
-      <option name="backtrace" value="SHORT" />
-      <envs />
-      <method v="2">
-        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+    <option name="version" value="2" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9c815060-919b-4d6d-991c-a4518a23e965" name="Default Changelist" comment="" />
-      <created>1607311990272</created>
+      <changelist id="b7cab920-72b9-419b-ac22-01b22c650959" name="Default Changelist" comment="" />
+      <created>1607323699024</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1607311990272</updated>
-      <workItem from="1607311991690" duration="11651000" />
+      <updated>1607323699024</updated>
+      <workItem from="1607323700504" duration="326000" />
+      <workItem from="1607368343204" duration="6576000" />
     </task>
     <servers />
   </component>
