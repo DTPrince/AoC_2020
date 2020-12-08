@@ -9,7 +9,9 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7cab920-72b9-419b-ac22-01b22c650959" name="Default Changelist" comment="" />
+    <list default="true" id="b16c3a3c-bf61-42e8-8ad1-ba8fdeaf587b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Day6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Day6/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,9 +24,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MacroExpansionManager">
-    <option name="directoryName" value="6d2qtb6y" />
+    <option name="directoryName" value="en8ucuvb" />
   </component>
-  <component name="ProjectId" id="1lJmivSgBGqWXHDpQqLb0cuTrRJ" />
+  <component name="ProjectId" id="1lLSm3ln77aW1cVM8szaBs0rAbe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
@@ -33,11 +35,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Rust" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
   </component>
   <component name="RunManager">
@@ -48,7 +50,7 @@
     </configuration>
     <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
       <option name="channel" value="DEFAULT" />
-      <option name="command" value="run --package Day6 --bin Day6" />
+      <option name="command" value="run --package Day7 --bin Day7" />
       <option name="allFeatures" value="false" />
       <option name="emulateTerminal" value="false" />
       <option name="backtrace" value="SHORT" />
@@ -66,17 +68,33 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b7cab920-72b9-419b-ac22-01b22c650959" name="Default Changelist" comment="" />
-      <created>1607323699024</created>
+      <changelist id="b16c3a3c-bf61-42e8-8ad1-ba8fdeaf587b" name="Default Changelist" comment="" />
+      <created>1607375033967</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1607323699024</updated>
-      <workItem from="1607323700504" duration="326000" />
-      <workItem from="1607368343204" duration="6659000" />
+      <updated>1607375033967</updated>
+      <workItem from="1607375035319" duration="8838000" />
+      <workItem from="1607452078220" duration="18062000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/main.rs</url>
+          <line>132</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CargoCommandRunConfiguration">
+        <watch expression="bag.rules.buf.ptr.pointer-&gt;vec" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
